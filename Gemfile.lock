@@ -3,7 +3,9 @@ GEM
   specs:
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
+    dotenv (2.1.1)
     ffi (1.9.14)
+    oauth (0.5.1)
     rubyzip (1.2.0)
     selenium-webdriver (2.53.4)
       childprocess (~> 0.5)
@@ -15,6 +17,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
+  oauth
   selenium-webdriver
 
 BUNDLED WITH
